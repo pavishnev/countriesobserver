@@ -1,0 +1,26 @@
+.wrapContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    font-size: 100px;
+}
+.list{
+
+overflow-y: scroll;
+    height: 50vh;
+}
+.example-full-width{
+    width: 90%;
+}
+.mg{
+   margin-top: 20px;
+}
+button{
+    width: 30%;
+}
+.mat-list-text{
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}

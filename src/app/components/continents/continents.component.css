@@ -1,0 +1,16 @@
+.wrapContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 100px;
+}
+button{
+    margin: 3%;
+    font-size: 40px;
+    padding: 3%;
+}
+.buttons{
+display: flex;
+justify-content: center;
+flex-wrap: wrap ;
+}

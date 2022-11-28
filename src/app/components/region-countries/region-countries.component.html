@@ -1,0 +1,21 @@
+<div class="wrapContent">
+  <button mat-raised-button color="primary" [routerLink]="'/continents'">
+    Go back
+  </button>
+  <mat-card class="mg">
+    <mat-selection-list [multiple]="false" class="list">
+      <mat-list-option
+        class="option"
+        *ngFor="let country of countries"
+        [value]="country.name.common"
+        (click)="routeTo(country.name.common)"
+      >
+        <h3 matListItemTitle>{{ country.name.common }}</h3>
+
+        <mat-icon matListItemIcon>
+          <img width="20px" [src]="country.flags.svg" alt="" />
+        </mat-icon>
+      </mat-list-option>
+    </mat-selection-list>
+  </mat-card>
+</div>

@@ -1,0 +1,15 @@
+<div>
+    <button mat-raised-button color="primary" (click)="routeBack()">
+    Go back
+  </button>
+  <mat-card>  
+    <h1>Country name:  {{countryJson.name.common}}</h1>  <img width="100px" [src]="countryJson.flags.svg" alt="" />
+    <br>
+
+    <b>Capital:</b>  {{countryJson.capital}}
+    <br>
+    <b>Population:</b>   {{countryJson.population}}
+    <br>
+    <b>Fifa:</b>   {{countryJson.fifa}}
+  </mat-card>
+</div>
